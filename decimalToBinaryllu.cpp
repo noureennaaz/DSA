@@ -18,7 +18,7 @@ int main(){
         
         factor= pow( 10 , i );
         
-        if(factor%10 !=0 ){
+        if(factor%10 !=0 && factor!=1 ){
             factor+=1 ;
         }
         
