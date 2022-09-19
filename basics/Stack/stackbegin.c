@@ -22,10 +22,10 @@ int isfull()
 void push()
 {
     if(isfull()!=1){
-        //int n;
+        
         //printf("\nEnter Element :\n");
         scanf("%d",&a[++top]);
-        //a[++top]=n;
+        
     }
     else
        printf("Overflow !\n");
