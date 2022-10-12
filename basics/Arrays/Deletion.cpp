@@ -26,7 +26,7 @@ int main(){
             count=1;
         }
         a[i]=a[i+count];
-       // printf("%d ",a[i]);
+       
     }
     if(count==1)
         printf("%d deleted  \n",d);
